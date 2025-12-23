@@ -3,7 +3,7 @@ main.py
 
 Main program to demonstrate the calculator functions.
 Each student implements one function (add, sub, mul, div)
-inside calculator/operations.py according to their assigned role.
+inside calculator/operations.py according to their assigned role/zz//.
 """
 
 from calculator.operations import add, sub, mul, div
