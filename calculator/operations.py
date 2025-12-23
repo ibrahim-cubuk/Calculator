@@ -12,7 +12,7 @@ This shared file is intentional. You will probably create merge conflicts.
 That's part of the exercise.
 """
 def format_result(a):
-    return f"result: {a}"
+    return f"het resultaat: {a}"
     """Return a minus b. Developer B owns this function."""
 
 def add(a, b):
@@ -29,11 +29,11 @@ def sub(a, b):
 
 def mul(a, b):
     """Return the product of a and b. Developer C owns this function."""
-    return a * b
+    return format_result(a * b)
 
 
 
 def div(a, b):
     """Return a divided by b. Developer D owns this function."""
-    return a / b
+    return format_result(a / b)
 
