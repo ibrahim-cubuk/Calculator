@@ -10,6 +10,7 @@ from calculator.operations import add, sub, mul, div
 
 
 def main():
+    global result
     print("=== Team Calculator ===")
     print("Available operations: add, sub, mul, div")
     print("Type 'exit' to quit.\n")
@@ -46,7 +47,7 @@ def main():
                 symbol = "/"
 
             print(f"\nOperation: {operation.upper()}")
-            print(f"Calculation: {a} {symbol} {b} = {result}\n")
+            print(result)
 
         except ZeroDivisionError:
             print("Error: Division by zero is not allowed.\n")
